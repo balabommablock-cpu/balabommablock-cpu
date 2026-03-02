@@ -1,10 +1,10 @@
-# Hey, I'm building AI for financial services
+# Hey, I'm Rishabh
 
 VP of Product at a 15,000-person Indian fintech. I build AI tools for regulated industries where accuracy isn't optional.
 
 ## What I'm building
 
-- **Boredfolio** — AI-powered mutual fund intelligence for India. Ask in plain English, get fund analysis with citations
+- **[Boredfolio](https://github.com/balabommablock-cpu/boredfolio)** — AI-powered mutual fund intelligence for India. Ask in plain English, get fund analysis with citations
 - **RegAI** — RAG over SEBI/RBI regulatory documents. Domain-specific chunking for financial compliance
 - **Agent-PM** — Agentic PM workflow tool built on Claude. PRD generation, sprint planning, competitive analysis
 - **LLM-Eval for BFSI** — Evaluation framework for LLM outputs in regulated financial contexts
