@@ -8,9 +8,9 @@ Currently focused on the Indian BFSI ecosystem: making Claude work for banks, NB
 
 ### Agentic Frameworks
 
-**[Claude Web Studio](https://github.com/balabommablock-cpu/claude-web-studio)** -- Build web products from idea to launched business using 28 specialist AI agents. The full lifecycle: brand identity, user research, strategy, design, engineering, SEO, analytics, marketing, legal, security, growth, and community. Includes Evaluator (tight eval loops at every phase gate) and Devil's Advocate (challenges every high-stakes decision). Express mode for speed, Thorough mode for depth.
+**[Claude Web Studio](https://github.com/balabommablock-cpu/claude-web-studio)** -- 28 specialist AI agents for building and launching web products. Solo Builder Mode with revenue-first ordering, energy-aware routing, and decision journaling. Slash commands (`/plan`, `/build`, `/ship`, `/stuck`, `/missing`, `/blockers`). Spec-driven workflow, persistent session memory, progress dashboard. Strategy, design, engineering, SEO, analytics, marketing, legal, security, growth, community, pricing, finance. Evaluator with quality gates + Devil's Advocate for every high-stakes decision.
 
-**[Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio)** -- Build mobile apps from idea to App Store/Play Store with 26 specialist agents. iOS (SwiftUI), Android (Jetpack Compose), React Native, Flutter. Full lifecycle: brand, design, dev, ASO, push notifications, monetization (StoreKit 2, Play Billing), platform compliance (ATT, Privacy Manifests), and mobile backend. Same eval system + devil's advocate.
+**[Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio)** -- 26 specialist agents for shipping mobile apps from idea to App Store/Play Store. iOS (SwiftUI), Android (Jetpack Compose), React Native, Flutter. Same Solo Builder Mode: revenue-first phases, `/stuck`, `/missing`, `/comply`, `/aso`. Full lifecycle: brand, design, dev, ASO, push notifications, monetization (StoreKit 2, RevenueCat), compliance (ATT, Privacy Manifests), mobile backend, analytics. Evaluator + Devil's Advocate.
 
 ### Products
 
