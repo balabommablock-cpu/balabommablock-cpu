@@ -8,9 +8,9 @@ Currently focused on the Indian BFSI ecosystem: making Claude work for banks, NB
 
 ### Agentic Frameworks
 
-**[Claude Web Studio](https://github.com/balabommablock-cpu/claude-web-studio)** -- Build web products from idea to launched business using 18 specialist AI agents. Covers strategy, design, engineering, SEO, analytics, marketing, security, legal, and growth. Solves the multi-agent invocation problem with a Negative Permissions orchestrator.
+**[Claude Web Studio](https://github.com/balabommablock-cpu/claude-web-studio)** -- Build web products from idea to launched business using 28 specialist AI agents. The full lifecycle: brand identity, user research, strategy, design, engineering, SEO, analytics, marketing, legal, security, growth, and community. Includes Evaluator (tight eval loops at every phase gate) and Devil's Advocate (challenges every high-stakes decision). Express mode for speed, Thorough mode for depth.
 
-**[Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio)** -- Build mobile apps from idea to App Store/Play Store with 18 specialist agents. Supports iOS (SwiftUI), Android (Jetpack Compose), React Native, and Flutter. Full lifecycle: strategy through ASO, monetization, and platform compliance.
+**[Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio)** -- Build mobile apps from idea to App Store/Play Store with 26 specialist agents. iOS (SwiftUI), Android (Jetpack Compose), React Native, Flutter. Full lifecycle: brand, design, dev, ASO, push notifications, monetization (StoreKit 2, Play Billing), platform compliance (ATT, Privacy Manifests), and mobile backend. Same eval system + devil's advocate.
 
 ### Products
 
@@ -28,7 +28,7 @@ Currently focused on the Indian BFSI ecosystem: making Claude work for banks, NB
 
 **[Claude for Indian BFSI](https://github.com/balabommablock-cpu/claude-for-indian-bfsi)** -- Go-To-Market playbook for Claude in Indian banking and financial services. RBI compliance mapping, enterprise use cases, prompt templates.
 
-**[LLM Eval BFSI](https://github.com/balabommablock-cpu/llm-eval-bfsi)** -- Evaluation framework for LLMs on Indian financial services tasks. Benchmarks Claude, GPT-4, Gemini on regulatory QA.
+**[LLM Eval BFSI](https://github.com/balabommablock-cpu/llm-eval-bfsi)** -- Evaluation framework for LLMs on Indian financial services tasks.
 
 ### Curation & Learning
 
