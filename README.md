@@ -1,46 +1,91 @@
-## AI Product Manager | Building where AI meets regulation
+# Rishabh Balabomma
 
-I build AI products in domains most teams avoid -- financial compliance, regulatory interpretation, wealth management. Where getting the answer wrong has real consequences.
+**AI Product Manager** building at the intersection of AI and regulated industries.
 
-Currently focused on the Indian BFSI ecosystem: making Claude work for banks, NBFCs, insurance companies, and retail investors.
+I ship AI products in domains most teams avoid — financial compliance, regulatory interpretation, wealth management. Where hallucination isn't a fun demo bug, it's a regulatory violation.
+
+Currently: making Claude work for Indian banks, NBFCs, insurance companies, and retail investors.
+
+---
+
+### What I believe
+
+Most AI product work is cosplay. Real AI PM work means: choosing what the model should *not* do, designing for failure modes that matter, and shipping in industries where "move fast and break things" gets you a SEBI notice.
 
 ---
 
 ### Agentic Frameworks
 
-**[Claude Web Studio](https://github.com/balabommablock-cpu/claude-web-studio)** -- 28 specialist AI agents for building and launching web products. Solo Builder Mode with revenue-first ordering, energy-aware routing, and decision journaling. Slash commands (`/plan`, `/build`, `/ship`, `/stuck`, `/missing`, `/blockers`). Spec-driven workflow, persistent session memory, progress dashboard. Strategy, design, engineering, SEO, analytics, marketing, legal, security, growth, community, pricing, finance. Evaluator with quality gates + Devil's Advocate for every high-stakes decision.
+Two open-source frameworks for building production apps with Claude Code — not just code generation, but the full company: strategy, brand, design, engineering, compliance, growth, monetization.
 
-**[Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio)** -- 26 specialist agents for shipping mobile apps from idea to App Store/Play Store. iOS (SwiftUI), Android (Jetpack Compose), React Native, Flutter. Same Solo Builder Mode: revenue-first phases, `/stuck`, `/missing`, `/comply`, `/aso`. Full lifecycle: brand, design, dev, ASO, push notifications, monetization (StoreKit 2, RevenueCat), compliance (ATT, Privacy Manifests), mobile backend, analytics. Evaluator + Devil's Advocate.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Products
+**[Claude Web Studio](https://github.com/balabommablock-cpu/claude-web-studio)**
 
-**[Boredfolio](https://github.com/balabommablock-cpu/boredfolio)** -- India's most transparent mutual fund analysis platform. Full-stack Next.js app with Claude-powered fund intelligence, regulatory data integration, and plain-English analysis with citations.
+28 specialist agents. Full lifecycle.
 
-**[RegAI](https://github.com/balabommablock-cpu/regai)** -- RAG pipeline for SEBI and RBI regulations. Domain-specific chunking that preserves table context and amendment chains. Claude + pgvector + FastAPI.
+`/plan` `/build` `/ship` `/stuck` `/missing` `/blockers`
 
-**[Agent PM](https://github.com/balabommablock-cpu/agent-pm)** -- Claude-powered AI PM agent. Generates PRDs, writes tickets, prioritizes backlogs.
+Solo Builder Mode — revenue-first ordering, energy-aware routing, decision journal, progress dashboard. Spec-driven workflow. Persistent session memory.
 
-### Research & Strategy
+Strategy, design, frontend, backend, SEO, analytics, marketing, legal, security, growth, pricing, finance, community.
 
-**[Agentic WealthOps](https://github.com/balabommablock-cpu/agentic-wealthops)** -- The most detailed open-source playbook for AI agents in Indian wealth operations. 52 use cases across broking, MF distribution, and insurance.
+Evaluator + Devil's Advocate at every phase gate.
 
-**[The Delusional Manifesto](https://github.com/balabommablock-cpu/delusional-manifesto-wealthtech-india_)** -- 22,000-word manifesto on AI-native personal finance in India. 10 chapters, 5 product specs, full system architecture.
+</td>
+<td width="50%" valign="top">
 
-**[Claude for Indian BFSI](https://github.com/balabommablock-cpu/claude-for-indian-bfsi)** -- Go-To-Market playbook for Claude in Indian banking and financial services. RBI compliance mapping, enterprise use cases, prompt templates.
+**[Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio)**
 
-**[LLM Eval BFSI](https://github.com/balabommablock-cpu/llm-eval-bfsi)** -- Evaluation framework for LLMs on Indian financial services tasks.
+26 specialist agents. Idea to App Store.
 
-### Curation & Learning
+`/plan` `/build` `/ship` `/aso` `/comply` `/stuck`
 
-**[Awesome AI for Regulated Industries](https://github.com/balabommablock-cpu/awesome-ai-regulated-industries)** -- Curated tools, papers, and repos for AI in finance, healthcare, and legal.
+iOS (SwiftUI) · Android (Jetpack Compose) · React Native · Flutter
 
-**[TIL](https://github.com/balabommablock-cpu/til)** -- Notes on AI, LLMs, regulation, and building products in hard domains.
+ASO, push notifications, monetization (StoreKit 2, RevenueCat), compliance (ATT, Privacy Manifests), mobile backend.
 
-### Contributing To
+Same Solo Builder Mode. Same eval system.
 
-- [anthropics/financial-services-plugins](https://github.com/anthropics/financial-services-plugins/issues/15) -- Indian BFSI plugin
-- [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks/issues/407) -- Domain-specific RAG cookbook
+</td>
+</tr>
+</table>
+
+**What makes these different:** The orchestrator is *prohibited* from writing code or making decisions (Negative Permissions). It can only route to agents. This solves the #1 problem with multi-agent systems — the orchestrator doing everything itself.
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/brishabhrao/)
+### Products
+
+| Project | What it does |
+|---------|-------------|
+| **[Boredfolio](https://github.com/balabommablock-cpu/boredfolio)** | India's most transparent mutual fund analysis. Next.js + Claude-powered fund intelligence with regulatory data and plain-English analysis with citations. |
+| **[RegAI](https://github.com/balabommablock-cpu/regai)** | RAG pipeline for SEBI and RBI regulations. Domain-specific chunking that preserves table context and amendment chains. Claude + pgvector + FastAPI. |
+| **[Agent PM](https://github.com/balabommablock-cpu/agent-pm)** | Claude-powered PM agent. PRDs, tickets, backlog prioritization. |
+
+---
+
+### Research
+
+| Project | What it covers |
+|---------|---------------|
+| **[Agentic WealthOps](https://github.com/balabommablock-cpu/agentic-wealthops)** | 52 use cases for AI agents in Indian wealth operations — broking, MF distribution, insurance. |
+| **[The Delusional Manifesto](https://github.com/balabommablock-cpu/delusional-manifesto-wealthtech-india_)** | 22,000-word thesis on AI-native personal finance in India. 10 chapters, 5 product specs, full architecture. |
+| **[Claude for Indian BFSI](https://github.com/balabommablock-cpu/claude-for-indian-bfsi)** | Go-to-market playbook for Claude in Indian banking. RBI compliance mapping, enterprise use cases, prompt templates. |
+| **[LLM Eval BFSI](https://github.com/balabommablock-cpu/llm-eval-bfsi)** | Evaluation framework for LLMs on Indian financial services tasks. |
+| **[Awesome AI for Regulated Industries](https://github.com/balabommablock-cpu/awesome-ai-regulated-industries)** | Curated tools, papers, and repos for AI in finance, healthcare, and legal. |
+
+---
+
+### Contributing to Anthropic
+
+- [anthropics/financial-services-plugins#15](https://github.com/anthropics/financial-services-plugins/issues/15) — Indian BFSI plugin
+- [anthropics/claude-cookbooks#407](https://github.com/anthropics/claude-cookbooks/issues/407) — Domain-specific RAG cookbook
+
+---
+
+<p align="center">
+<a href="https://www.linkedin.com/in/brishabhrao/">LinkedIn</a>
+</p>
