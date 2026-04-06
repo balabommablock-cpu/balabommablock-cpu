@@ -63,6 +63,9 @@ Same Solo Builder Mode. Same eval system.
 |---------|-------------|
 | **[Boredfolio](https://github.com/balabommablock-cpu/boredfolio)** | India's most transparent mutual fund analysis. Next.js + Claude-powered fund intelligence with regulatory data and plain-English analysis with citations. |
 | **[RegAI](https://github.com/balabommablock-cpu/regai)** | RAG pipeline for SEBI and RBI regulations. Domain-specific chunking that preserves table context and amendment chains. Claude + pgvector + FastAPI. |
+| **[Resume Scorer](https://github.com/balabommablock-cpu/resume-scorer)** | 6-dimension AI resume scoring engine. Semantic skill matching, bias detection, explainable reasoning. Built for regulated hiring contexts. TypeScript. |
+| **[PreAuth AI](https://github.com/balabommablock-cpu/preauth-ai)** | 5-node AI system for hospital insurance pre-authorization. Clinical Parser → Completeness Checker → Approval Scorer. Cuts turnaround from days to minutes. TypeScript. |
+| **[Job Autopilot v3](https://github.com/balabommablock-cpu/job-autopilot-v3)** | AI-native cold outreach pipeline. 7-stage system: scrape → guardrails → score → compose → resume gen. Zero manual steps from JD to personalized application. Python. |
 | **[Agent PM](https://github.com/balabommablock-cpu/agent-pm)** | Claude-powered PM agent. PRDs, tickets, backlog prioritization. |
 
 ---
