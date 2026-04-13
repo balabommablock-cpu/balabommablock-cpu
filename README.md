@@ -1,94 +1,112 @@
-# Rishabh Balabomma
+# rishabh balabomma
 
-**AI Product Manager** building at the intersection of AI and regulated industries.
+i build things in domains most teams won't touch. financial compliance, regulatory interpretation, wealth management, healthcare pre-authorization. domains where hallucination isn't a demo bug, it's a regulatory violation.
 
-I ship AI products in domains most teams avoid — financial compliance, regulatory interpretation, wealth management. Where hallucination isn't a fun demo bug, it's a regulatory violation.
+the most interesting thing about AI isn't that it can think. it's that it makes you realize how little of your job was thinking.
 
-Currently: making Claude work for Indian banks, NBFCs, insurance companies, and retail investors.
-
----
-
-### What I believe
-
-Most AI product work is cosplay. Real AI PM work means: choosing what the model should *not* do, designing for failure modes that matter, and shipping in industries where "move fast and break things" gets you a SEBI notice.
+so i build the parts that actually require thinking.
 
 ---
 
-### Agentic Frameworks
-
-Two open-source frameworks for building production apps with Claude Code — not just code generation, but the full company: strategy, brand, design, engineering, compliance, growth, monetization.
+### the moonshots
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**[Claude Web Studio](https://github.com/balabommablock-cpu/claude-web-studio)**
+**[ARIA Engine](https://github.com/balabommablock-cpu/aria-engine)**
 
-28 specialist agents. Full lifecycle.
+fully autonomous content engine for X. claude opus writes, scores, schedules, publishes, and self-replies. zero manual intervention.
 
-`/plan` `/build` `/ship` `/stuck` `/missing` `/blockers`
+not a tweet scheduler with AI sprinkled on. a complete autonomous content architecture with voice calibration, territory balancing, algo-aware timing, and engagement loops.
 
-Solo Builder Mode — revenue-first ordering, energy-aware routing, decision journal, progress dashboard. Spec-driven workflow. Persistent session memory.
-
-Strategy, design, frontend, backend, SEO, analytics, marketing, legal, security, growth, pricing, finance, community.
-
-Evaluator + Devil's Advocate at every phase gate.
+the question isn't whether AI can write tweets. the question is whether it can develop taste.
 
 </td>
 <td width="50%" valign="top">
 
-**[Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio)**
+**[Open Mithiya](https://github.com/balabommablock-cpu/openmithiya)**
 
-26 specialist agents. Idea to App Store.
+benchmark-optimized agentic coding CLI. forked from codex, closing 9 specific gaps vs claude code.
 
-`/plan` `/build` `/ship` `/aso` `/comply` `/stuck`
+plan-act-verify loops. reflexion-on-failure. worktree isolation. three-layer evaluation system targeting SWE-bench Verified and Terminal-Bench 2.0.
 
-iOS (SwiftUI) · Android (Jetpack Compose) · React Native · Flutter
-
-ASO, push notifications, monetization (StoreKit 2, RevenueCat), compliance (ATT, Privacy Manifests), mobile backend.
-
-Same Solo Builder Mode. Same eval system.
+spent 36 hours automating a process i had never once done successfully by hand. if you need someone to scale nothing to production, i'm available.
 
 </td>
 </tr>
 </table>
 
-**What makes these different:** The orchestrator is *prohibited* from writing code or making decisions (Negative Permissions). It can only route to agents. This solves the #1 problem with multi-agent systems — the orchestrator doing everything itself.
+---
+
+### agent frameworks
+
+two open-source CLAUDE.md systems that turn claude code into a full company. not code generation. strategy, design, engineering, compliance, growth, monetization.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[Claude Web Studio](https://github.com/balabommablock-cpu/claude-web-studio)** -- 28 specialist agents
+
+`/plan` `/build` `/ship` `/stuck` `/missing`
+
+the orchestrator is prohibited from writing code or making decisions. it can only route to agents. this solves the #1 problem with multi-agent systems -- the orchestrator doing everything itself.
+
+</td>
+<td width="50%" valign="top">
+
+**[Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio)** -- 26 specialist agents
+
+iOS (SwiftUI) . Android (Jetpack Compose) . React Native . Flutter
+
+idea to app store. ASO, push notifications, monetization, compliance (ATT, Privacy Manifests). same eval system. same negative permissions architecture.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Products
+### products shipped
 
-| Project | What it does |
-|---------|-------------|
-| **[Boredfolio](https://github.com/balabommablock-cpu/boredfolio)** | India's most transparent mutual fund analysis. Next.js + Claude-powered fund intelligence with regulatory data and plain-English analysis with citations. |
-| **[RegAI](https://github.com/balabommablock-cpu/regai)** | RAG pipeline for SEBI and RBI regulations. Domain-specific chunking that preserves table context and amendment chains. Claude + pgvector + FastAPI. |
-| **[Resume Scorer](https://github.com/balabommablock-cpu/resume-scorer)** | 6-dimension AI resume scoring engine. Semantic skill matching, bias detection, explainable reasoning. Built for regulated hiring contexts. TypeScript. |
-| **[PreAuth AI](https://github.com/balabommablock-cpu/preauth-ai)** | 5-node AI system for hospital insurance pre-authorization. Clinical Parser → Completeness Checker → Approval Scorer. Cuts turnaround from days to minutes. TypeScript. |
-| **[Job Autopilot v3](https://github.com/balabommablock-cpu/job-autopilot-v3)** | AI-native cold outreach pipeline. 7-stage system: scrape → guardrails → score → compose → resume gen. Zero manual steps from JD to personalized application. Python. |
-| **[Agent PM](https://github.com/balabommablock-cpu/agent-pm)** | Claude-powered PM agent. PRDs, tickets, backlog prioritization. |
-
----
-
-### Research
-
-| Project | What it covers |
-|---------|---------------|
-| **[Agentic WealthOps](https://github.com/balabommablock-cpu/agentic-wealthops)** | 52 use cases for AI agents in Indian wealth operations — broking, MF distribution, insurance. |
-| **[The Delusional Manifesto](https://github.com/balabommablock-cpu/delusional-manifesto-wealthtech-india_)** | 22,000-word thesis on AI-native personal finance in India. 10 chapters, 5 product specs, full architecture. |
-| **[Claude for Indian BFSI](https://github.com/balabommablock-cpu/claude-for-indian-bfsi)** | Go-to-market playbook for Claude in Indian banking. RBI compliance mapping, enterprise use cases, prompt templates. |
-| **[LLM Eval BFSI](https://github.com/balabommablock-cpu/llm-eval-bfsi)** | Evaluation framework for LLMs on Indian financial services tasks. |
-| **[Awesome AI for Regulated Industries](https://github.com/balabommablock-cpu/awesome-ai-regulated-industries)** | Curated tools, papers, and repos for AI in finance, healthcare, and legal. |
+| | what it does |
+|---|---|
+| **[Boredfolio](https://boredfolio.com)** | india's most transparent mutual fund platform. ai-powered fund roasts, ELSS comparisons, direct vs regular calculators. every joke contains a real financial truth. next.js + claude. |
+| **[Jugalbandi](https://boredfolio.com/jugalbandi-thesis)** | dual-interface wealth platform. client dashboard and RM command center on a shared intelligence graph. the RM doesn't need instructions -- they need context. |
+| **[Sarvam BFSI](https://boredfolio.com/sarvam)** | 54 AI use cases for indian banking across 8 languages and 5 sarvam APIs. compliance surfaces that earn trust. |
+| **[RegAI](https://github.com/balabommablock-cpu/regai)** | RAG pipeline for SEBI and RBI regulations. domain-specific chunking that preserves table context and amendment chains. claude + pgvector. |
+| **[PreAuth AI](https://boredfolio.com/preauth-ai)** | 5-node AI engine for hospital insurance pre-authorization. clinical parser, ICD-10 coding, completeness checker, approval scorer. days to minutes. |
+| **[Resume Scorer](https://boredfolio.com/resume-scorer)** | 6-dimension AI resume scoring. semantic skill matching, bias detection, explainable reasoning. |
+| **[Job Autopilot v3](https://github.com/balabommablock-cpu/job-autopilot-v3)** | 7-stage AI outreach pipeline. scrape, guardrails, score, compose, resume gen, send, monitor. 2,500+ lines of python. zero manual steps from JD to personalized application. |
 
 ---
 
-### Contributing to Anthropic
+### research
 
-- [anthropics/financial-services-plugins#15](https://github.com/anthropics/financial-services-plugins/issues/15) — Indian BFSI plugin
-- [anthropics/claude-cookbooks#407](https://github.com/anthropics/claude-cookbooks/issues/407) — Domain-specific RAG cookbook
+| | |
+|---|---|
+| **[The Delusional Manifesto](https://github.com/balabommablock-cpu/delusional-manifesto-wealthtech-india_)** | 22,000 words on AI-native personal finance in india. 10 chapters. 5 product specs. full system architecture. |
+| **[Agentic WealthOps](https://github.com/balabommablock-cpu/agentic-wealthops)** | 52 use cases for AI agents in indian broking, MF distribution, and insurance. |
+| **[Claude for Indian BFSI](https://github.com/balabommablock-cpu/claude-for-indian-bfsi)** | claude go-to-market playbook for indian banking. RBI compliance mapping, enterprise use cases, production prompt templates. |
+| **[LLM Eval BFSI](https://github.com/balabommablock-cpu/llm-eval-bfsi)** | benchmark framework for LLMs on indian financial services tasks. claude vs GPT-4 vs gemini on regulatory QA. |
 
 ---
 
-<p align="center">
-<a href="https://www.linkedin.com/in/brishabhrao/">LinkedIn</a>
-</p>
+### contributing to anthropic
+
+- [anthropics/financial-services-plugins#15](https://github.com/anthropics/financial-services-plugins/issues/15) -- indian BFSI plugin
+- [anthropics/claude-cookbooks#407](https://github.com/anthropics/claude-cookbooks/issues/407) -- domain-specific RAG cookbook
+
+---
+
+### utilities
+
+| | |
+|---|---|
+| **[claude-on-a-budget](https://github.com/balabommablock-cpu/claude-on-a-budget)** | token compression for claude code. real counting, semantic-safe transforms, behavioral regression testing. |
+| **[unga-bunga](https://github.com/balabommablock-cpu/unga-bunga)** | every message you send to claude code has a hidden tax. this shows you the bill, then fixes it. |
+
+---
+
+<sub>[boredfolio.com](https://boredfolio.com) . [linkedin](https://www.linkedin.com/in/brishabhrao/) . [@BalabommaRao](https://x.com/BalabommaRao)</sub>
