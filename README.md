@@ -6,11 +6,9 @@ takes toys seriously. takes seriousness as a toy. mostly building in either dire
 
 ---
 
-i build AI products in domains most teams won't touch — financial compliance, regulatory interpretation, wealth management, healthcare pre-authorization. domains where hallucination isn't a demo bug, it's a regulatory violation.
+most AI demos break on edge cases. i build for domains where the edge case is the whole job — insurance pre-auth, financial compliance, regulatory interpretation. if it hallucinates, someone gets denied coverage or fails an audit.
 
-the most interesting thing about AI isn't that it can think. it's that it makes you realize how little of your job was thinking.
-
-so i build the parts that actually require it.
+i also build tools that probably don't need to exist but are more fun because they do.
 
 ---
 
@@ -28,27 +26,25 @@ so i build the parts that actually require it.
 
 | project | what it does |
 |---|---|
-| [Boredfolio / Jugalbandi](https://github.com/balabommablock-cpu/boredfolio) | india's most transparent mutual fund platform + dual-interface wealth management system. next.js 15 monorepo. |
-| [Open Mithiya](https://github.com/balabommablock-cpu/openmithiya) | benchmark-optimized agentic coding CLI. forked from codex, closing 9 gaps vs claude code. rust. |
-| [Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio) | 26 specialist agents for mobile dev. HIG/Material compliance, App Store readiness, ASO — enforced automatically. |
-| [claude-on-a-budget](https://github.com/balabommablock-cpu/claude-on-a-budget) | token compression for Claude Code. honest about caching. AST-level compression. behavioral regression testing. |
-| [RegAI](https://github.com/balabommablock-cpu/regai) | RAG pipeline for SEBI and RBI regulations. domain-specific chunking that preserves table context and amendment chains. |
-| [Job Autopilot v3](https://github.com/balabommablock-cpu/job-autopilot-v3) | 7-stage AI outreach pipeline. scrape, guardrails, score, compose, resume gen, send, monitor. 2,500+ lines of python. |
-| [Resume Scorer](https://github.com/balabommablock-cpu/resume-scorer) | 6-dimension AI resume scoring. semantic skill matching, bias detection, explainable reasoning. |
+| **[Boredfolio / Jugalbandi](https://github.com/balabommablock-cpu/boredfolio)** | india's most transparent mutual fund platform + dual-interface wealth management system. next.js 15 monorepo. |
+| **[Open Mithiya](https://github.com/balabommablock-cpu/openmithiya)** | benchmark-optimized agentic coding CLI. forked from codex, closing 9 gaps vs claude code. rust. |
+| **[Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio)** | 26 specialist agents for mobile dev. HIG/Material compliance, App Store readiness, ASO — enforced automatically. |
+| **[claude-on-a-budget](https://github.com/balabommablock-cpu/claude-on-a-budget)** | token compression for Claude Code. honest about caching. AST-level compression. behavioral regression testing. |
+| **[RegAI](https://github.com/balabommablock-cpu/regai)** | RAG pipeline for SEBI and RBI regulations. domain-specific chunking that preserves table context and amendment chains. |
+| **[Job Autopilot v3](https://github.com/balabommablock-cpu/job-autopilot-v3)** | 7-stage AI outreach pipeline. scrape, guardrails, score, compose, resume gen, send, monitor. 2,500+ lines of python. |
+| **[Resume Scorer](https://github.com/balabommablock-cpu/resume-scorer)** | 6-dimension AI resume scoring. semantic skill matching, bias detection, explainable reasoning. |
 
 ### research
 
 | paper | scope |
 |---|---|
-| [The Delusional Manifesto](https://github.com/balabommablock-cpu/delusional-manifesto-wealthtech-india_) | 22,000 words on AI-native personal finance in india. 10 chapters. 5 product specs. full system architecture. |
-| [Agentic WealthOps](https://github.com/balabommablock-cpu/agentic-wealthops) | 52 use cases for AI agents in indian broking, MF distribution, and insurance. |
-| [Claude for Indian BFSI](https://github.com/balabommablock-cpu/claude-for-indian-bfsi) | claude go-to-market playbook for indian banking. RBI compliance mapping, production prompt templates. |
+| **[The Delusional Manifesto](https://github.com/balabommablock-cpu/delusional-manifesto-wealthtech-india_)** | 22,000 words on AI-native personal finance in india. 10 chapters. 5 product specs. full system architecture. |
+| **[Agentic WealthOps](https://github.com/balabommablock-cpu/agentic-wealthops)** | 52 use cases for AI agents in indian broking, MF distribution, and insurance. |
+| **[Claude for Indian BFSI](https://github.com/balabommablock-cpu/claude-for-indian-bfsi)** | claude go-to-market playbook for indian banking. RBI compliance mapping, production prompt templates. |
 
 ### contributing to anthropic
 
-- [anthropics/financial-services-plugins#15](https://github.com/anthropics/financial-services-plugins/issues/15) — indian BFSI plugin
-- [anthropics/claude-cookbooks#407](https://github.com/anthropics/claude-cookbooks/issues/407) — domain-specific RAG cookbook
+- [anthropics/financial-services-plugins#15](https://github.com/anthropics/financial-services-plugins/pull/15) — indian BFSI plugin
+- [anthropics/claude-cookbooks#407](https://github.com/anthropics/claude-cookbooks/pull/407) — domain-specific RAG cookbook
 
----
-
-[boredfolio.com](https://boredfolio.com) · [linkedin](https://www.linkedin.com/in/brishabhrao/) · [@BalabommaRao](https://x.com/BalabommaRao)
+[boredfolio.com](https://boredfolio.com) · [linkedin](https://www.linkedin.com/in/rishabh-balabomma/) · [@BalabommaRao](https://x.com/BalabommaRao)
