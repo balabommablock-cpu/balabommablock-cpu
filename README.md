@@ -1,18 +1,24 @@
 # rishabh balabomma
 
-takes toys seriously. takes seriousness as a toy. mostly building in either direction.
+takes toys seriously. takes seriousness as a toy. shipping AI where hallucination is a regulatory violation — and a personal AI that actually remembers you.
 
-23 repos. 15,000+ lines shipped. contributing to [@anthropics](https://github.com/anthropics). solo.
+26 repos. solo. mumbai. contributing to [@anthropics](https://github.com/anthropics).
 
 ---
 
 most AI demos break on edge cases. i build for domains where the edge case is the whole job — insurance pre-auth, financial compliance, regulatory interpretation. if it hallucinates, someone gets denied coverage or fails an audit.
 
+i'm also building the personal AI i actually want — local-first, voice-native, with memory that survives more than a session. lives on whatsapp, on the web, on a phone in your pocket.
+
 i also build tools that probably don't need to exist but are more fun because they do.
 
 ---
 
-### what i'm building
+### what i'm building right now
+
+**[hopefullyworks](https://hopefullyworks.vercel.app)** — a personal AI creature that runs on your machine, not someone's datacenter. ollama (llama3.2 + qwen2.5) + whisper.cpp + a custom memory engine. talks to you on whatsapp. wakes up at 3am to dream and consolidate memory (yes, an actual cron). voice loop in, voice loop out. mobile PWA on iOS and android via capacitor. the goal: an assistant where the model doesn't forget you between conversations and doesn't leak you to a vendor.
+
+**[worn-memory](https://github.com/balabommablock-cpu/worn-memory)** — pluggable memory engine for AI agents. worn first-person doc + event-driven anticipation + sleep-time writer + hybrid retrieval. BYO database, LLM, embedder. the substrate behind hopefullyworks. open source.
 
 **[ARIA Engine](https://github.com/balabommablock-cpu/aria-engine)** — fully autonomous content engine for X. claude opus writes, scores, schedules, publishes, and self-replies. 2,009 lines of python. 9 sqlite tables. zero manual intervention. the question isn't whether AI can write tweets. the question is whether it can develop taste.
 
