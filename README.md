@@ -16,7 +16,7 @@ i also build tools that probably don't need to exist but are more fun because th
 
 ### what i'm building right now
 
-**[hopefullyworks](https://hopefullyworks.vercel.app)** — a personal AI creature that runs on your machine, not someone's datacenter. ollama (llama3.2 + qwen2.5) + whisper.cpp + a custom memory engine. talks to you on whatsapp. wakes up at 3am to dream and consolidate memory (yes, an actual cron). voice loop in, voice loop out. mobile PWA on iOS and android via capacitor. the goal: an assistant where the model doesn't forget you between conversations and doesn't leak you to a vendor.
+**[hope.mail / hopefullyworks](https://hopefullyworks.vercel.app)** *(private, in stealth)* — an agent that handles your email. built on a custom memory engine (worn-memory) so it actually remembers what you've decided about senders, threads, and recurring topics. monorepo: agent core + frontend + backend. ask if you want a closer look.
 
 **[worn-memory](https://github.com/balabommablock-cpu/worn-memory)** — pluggable memory engine for AI agents. worn first-person doc + event-driven anticipation + sleep-time writer + hybrid retrieval. BYO database, LLM, embedder. the substrate behind hopefullyworks. open source.
 
@@ -26,7 +26,7 @@ i also build tools that probably don't need to exist but are more fun because th
 
 **[RegAI](https://github.com/balabommablock-cpu/regai)** — RAG pipeline for SEBI and RBI regulations. domain-specific chunking that preserves table context and amendment chains.
 
-**[IndicFinEval-200](https://github.com/balabommablock-cpu/llm-eval-bfsi)** *(in progress, shipping june 2026)* — 200 hand-curated questions on indian financial regulation (SEBI, RBI, IRDAI), with golden answers and source citations. multi-model comparison across claude, gpt, gemini, sarvam. failure-mode taxonomy. the eval i wish existed before i started shipping claude in BFSI.
+**IndicFinEval-200** *(in progress, shipping june 2026)* — 200 hand-curated questions on indian financial regulation (SEBI, RBI, IRDAI), with golden answers and source citations. multi-model comparison across claude, gpt, gemini, sarvam. failure-mode taxonomy. the eval i wish existed before i started shipping claude in BFSI. extending the existing [llm-eval-bfsi](https://github.com/balabommablock-cpu/llm-eval-bfsi) skeleton.
 
 ### research / writing
 
