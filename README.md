@@ -1,56 +1,32 @@
-# rishabh balabomma
+# Hi, I'm Rishabh 👋
 
-takes toys seriously. takes seriousness as a toy. shipping AI where hallucination is a regulatory violation — and a personal AI that actually remembers you.
+I make AI tools simpler.
 
-26 repos. solo. mumbai. contributing to [@anthropics](https://github.com/anthropics).
+<sub>Takes toys seriously. Takes seriousness as a toy.</sub>
 
----
+I'm a product manager (VP Product). Most of my job is noticing where people get stuck and taking that step away. On GitHub I do the same thing for open-source AI agents: small fixes, plain error messages, and the odd "we could just delete this".
 
-most AI demos break on edge cases. i build for domains where the edge case is the whole job — insurance pre-auth, financial compliance, regulatory interpretation. if it hallucinates, someone gets denied coverage or fails an audit.
+## What I work on
+- **Personal AI agents** that run on their own computer and talk to you in chat: OpenMausBot, rakazo, airi, nanobot.
+- **Agent memory**: claude-mem, gbrain, hindsight.
+- **The boring bits that decide whether people trust an agent**: does it say why it failed, does it stop asking the same question, does it do what the button says.
 
-i'm also building the personal AI i actually want — local-first, voice-native, with memory that survives more than a session. lives on whatsapp, on the web, on a phone in your pocket.
+## A few merged fixes I like
+- [rakazo #1468](https://github.com/elie222/rakazo/pull/1468): warn when a model can't see images, before you send one to it.
+- [rakazo #1461](https://github.com/elie222/rakazo/pull/1461): keep a paragraph break between turns, so replies stop running into each other.
+- [OpenMausBot #3026](https://github.com/milind-soni/OpenMausBot/pull/3026): name the HTTP status when an MCP server says no, instead of a vague error.
+- [claude-mem #4855](https://github.com/thedotmack/claude-mem/pull/4855): switch back to the main model once it recovers.
+- [airi #3013](https://github.com/moeru-ai/airi/pull/3013): make the speech cards open the settings they point to.
+- [unifi-mcp #883](https://github.com/sirkirby/unifi-mcp/pull/883): don't report a saved setting as failed when only the check failed.
 
-i also build tools that probably don't need to exist but are more fun because they do.
+I also write product notes on issues. Some of them ended up on [hindsight](https://github.com/vectorize-io/hindsight)'s plan, which made my week.
 
----
+## How I work
+1. Find the step where people get stuck.
+2. Make the smallest change that removes it.
+3. Write the PR so anyone can review it in two minutes.
 
-### what i'm building right now
+## Something I built
+- [**stuckcheck**](https://github.com/balabommablock-cpu/stuckcheck): reads an AI agent's chat log and points at where it went in circles. No LLM needed.
 
-**[hopefullyworks](https://hopefullyworks.vercel.app)** — a personal AI creature that runs on your machine, not someone's datacenter. ollama (llama3.2 + qwen2.5) + whisper.cpp + a custom memory engine. talks to you on whatsapp. wakes up at 3am to dream and consolidate memory (yes, an actual cron). voice loop in, voice loop out. mobile PWA on iOS and android via capacitor. the goal: an assistant where the model doesn't forget you between conversations and doesn't leak you to a vendor.
-
-**[worn-memory](https://github.com/balabommablock-cpu/worn-memory)** — pluggable memory engine for AI agents. worn first-person doc + event-driven anticipation + sleep-time writer + hybrid retrieval. BYO database, LLM, embedder. the substrate behind hopefullyworks. open source.
-
-**[ARIA Engine](https://github.com/balabommablock-cpu/aria-engine)** — fully autonomous content engine for X. claude opus writes, scores, schedules, publishes, and self-replies. 2,009 lines of python. 9 sqlite tables. zero manual intervention. the question isn't whether AI can write tweets. the question is whether it can develop taste.
-
-**[Claude Web Studio](https://github.com/balabommablock-cpu/claude-web-studio)** — 28 specialist agents. drop a CLAUDE.md into any project and get accessibility, security, SEO, and legal compliance enforced automatically while you build. the orchestrator is prohibited from writing code or making decisions. it can only route. this solves the #1 problem with multi-agent systems.
-
-**[PreAuth AI](https://github.com/balabommablock-cpu/preauth-ai)** — 5-node AI engine for hospital insurance pre-authorization. clinical parser, ICD-10 coding, completeness checker, approval scorer. parses Hindi-English mixed doctor's notes natively. days to minutes.
-
-**[unga-bunga](https://github.com/balabommablock-cpu/unga-bunga)** — your CLAUDE.md is a gym membership you forgot to cancel. except it charges you every message. this audits your setup, compresses the bloat, and saves up to 72% of your Claude Code token spend.
-
-### also shipped
-
-| project | what it does |
-|---|---|
-| **[Boredfolio / Jugalbandi](https://github.com/balabommablock-cpu/boredfolio)** | india's most transparent mutual fund platform + dual-interface wealth management system. next.js 15 monorepo. |
-| **[Open Mithiya](https://github.com/balabommablock-cpu/openmithiya)** | benchmark-optimized agentic coding CLI. forked from codex, closing 9 gaps vs claude code. rust. |
-| **[Claude Mobile Studio](https://github.com/balabommablock-cpu/claude-mobile-studio)** | 26 specialist agents for mobile dev. HIG/Material compliance, App Store readiness, ASO — enforced automatically. |
-| **[claude-on-a-budget](https://github.com/balabommablock-cpu/claude-on-a-budget)** | token compression for Claude Code. honest about caching. AST-level compression. behavioral regression testing. |
-| **[RegAI](https://github.com/balabommablock-cpu/regai)** | RAG pipeline for SEBI and RBI regulations. domain-specific chunking that preserves table context and amendment chains. |
-| **[Job Autopilot v3](https://github.com/balabommablock-cpu/job-autopilot-v3)** | 7-stage AI outreach pipeline. scrape, guardrails, score, compose, resume gen, send, monitor. 2,500+ lines of python. |
-| **[Resume Scorer](https://github.com/balabommablock-cpu/resume-scorer)** | 6-dimension AI resume scoring. semantic skill matching, bias detection, explainable reasoning. |
-
-### research
-
-| paper | scope |
-|---|---|
-| **[The Delusional Manifesto](https://github.com/balabommablock-cpu/delusional-manifesto-wealthtech-india_)** | 22,000 words on AI-native personal finance in india. 10 chapters. 5 product specs. full system architecture. |
-| **[Agentic WealthOps](https://github.com/balabommablock-cpu/agentic-wealthops)** | 52 use cases for AI agents in indian broking, MF distribution, and insurance. |
-| **[Claude for Indian BFSI](https://github.com/balabommablock-cpu/claude-for-indian-bfsi)** | claude go-to-market playbook for indian banking. RBI compliance mapping, production prompt templates. |
-
-### contributing to anthropic
-
-- [anthropics/financial-services-plugins#15](https://github.com/anthropics/financial-services-plugins/pull/15) — indian BFSI plugin
-- [anthropics/claude-cookbooks#407](https://github.com/anthropics/claude-cookbooks/pull/407) — domain-specific RAG cookbook
-
-[boredfolio.com](https://boredfolio.com) · [linkedin](https://www.linkedin.com/in/rishabh-balabomma/) · [@BalabommaRao](https://x.com/BalabommaRao)
+<sub>Rule of thumb: if it needs a long README, it probably needs a shorter product.</sub>
